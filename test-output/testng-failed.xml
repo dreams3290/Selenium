@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="guru2.Sr01">
+        <methods>
+          <include name="BeforeSr03"/>
+          <include name="tearDown2"/>
+          <include name="BeforeSr02"/>
+          <include name="tearDown"/>
+          <include name="closingStatements"/>
+          <include name="tearDown3"/>
+          <include name="declaringVariables"/>
+          <include name="testSr03"/>
+          <include name="BeforeSr01"/>
+        </methods>
+      </class> <!-- guru2.Sr01 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
