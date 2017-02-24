@@ -7,12 +7,15 @@
         <methods>
           <include name="BeforeSr03"/>
           <include name="tearDown2"/>
+          <include name="BeforeSro4"/>
           <include name="BeforeSr02"/>
           <include name="tearDown"/>
-          <include name="closingStatements"/>
           <include name="tearDown3"/>
+          <include name="testSr04"/>
           <include name="declaringVariables"/>
+          <include name="tearDown4"/>
           <include name="testSr03"/>
+          <include name="testSr02"/>
           <include name="BeforeSr01"/>
         </methods>
       </class> <!-- guru2.Sr01 -->
